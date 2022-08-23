@@ -43,31 +43,31 @@ mashiro_global.ini = new function () {
     if ($('div').hasClass('poem-wrap')) {
       get_poem('#poem', '#info')
     }
-    $(function () {
-      function waveloop1 () {
-        $('#banner_wave_1').css({
-          'left': '-236px'
-        }).animate({
-          'left': '-1233px'
-        }, 25000, 'linear', waveloop1)
-      }
+    // $(function () {
+    //   function waveloop1 () {
+    //     $('#banner_wave_1').css({
+    //       'left': '-236px'
+    //     }).animate({
+    //       'left': '-1233px'
+    //     }, 25000, 'linear', waveloop1)
+    //   }
 
-      function waveloop2 () {
-        $('#banner_wave_2').css({
-          'left': '0px'
-        }).animate({
-          'left': '-1009px'
-        }, 60000, 'linear', waveloop2)
-      }
-      if (screen && screen.width > 860) {
-        waveloop1()
-        waveloop2()
-      }
-      if (navigator.userAgent.indexOf('AppleWebKit') != -1) {
-        $('body').addClass('isWebKit')
-      }
-      hearthstone_deck_iframe()
-    })
+    //   function waveloop2 () {
+    //     $('#banner_wave_2').css({
+    //       'left': '0px'
+    //     }).animate({
+    //       'left': '-1009px'
+    //     }, 60000, 'linear', waveloop2)
+    //   }
+    //   if (screen && screen.width > 860) {
+    //     waveloop1()
+    //     waveloop2()
+    //   }
+    //   if (navigator.userAgent.indexOf('AppleWebKit') != -1) {
+    //     $('body').addClass('isWebKit')
+    //   }
+    //   hearthstone_deck_iframe()
+    // })
   }
   this.pjax = function () {
     pjaxInit()
