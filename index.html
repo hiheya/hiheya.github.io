@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="/css/jquery.fancybox.min.css" media="all">
   <link rel="stylesheet" href="/css/zoom.css" media="all">
   <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+  <link rel="stylesheet" href="/js/sakura-app.js" type="text/css" media="all" id="saukra_css-css">
+
 <!--   <link rel="stylesheet" id="saukra_css-css" href="https://2heng.xin/wp-content/cache/autoptimize/css/autoptimize_ad42a61f4c7d4bdd9f91afcff6b5dda5.css
 " type="text/css" media="all"> -->
   <script>
@@ -39,6 +41,9 @@
   mashiro_option.v_appId = "GyC3NzMvd0hT9Yyd2hYIC0MN-gzGzoHsz";
   mashiro_option.v_appKey = "mgOpfzbkHYqU92CV4IDlAUHQ";
   mashiro_option.mathjax = "0";
+  mashiro_option.copyright_enable = "false" ;
+  mashiro_option.copyright_minCharNumber = parseInt("80") ;
+  mashiro_option.copyright_description = "本文章著作权归作者所有，任何形式的转载都请注明出处。" ;
   mashiro_option.qq_api_url = "https://api.mashiro.top/qqinfo/"; 
   mashiro_option.qq_avatar_api_url = "https://api.mashiro.top/qqinfo/";
 
@@ -47,6 +52,13 @@
 
   /*End of Initial Variables*/
   </script>
+
+<!--自定义看板娘-->
+<script src="/live2d-widget/jquery.min.js"></script>
+<script src="/live2d-widget/autoload.js"></script>
+<link rel="stylesheet" href="/live2d-widget/font-awesome.min.css">
+
+
   <script type="text/javascript">
   var bg = "https://api.ixiaowai.cn/mcapi/mcapi.php".split(",");
   var bgindex = Math.floor(Math.random()*bg.length);
@@ -411,8 +423,8 @@
 <article  class="post post-list-thumb post-list-thumb-left"  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
 
   <div class="post-thumb">
-    <a href="/2022/08/24/计算机硬件知识/">
-      <img class="lazyload" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/hiheya/cdn@1.2/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/image-404.png">
+    <a href="/2022/08/24/jisuanjiyingjianzhishi/">
+      <img class="lazyload" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/hiheya/cdn@1.2/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://tva4.sinaimg.cn/large/87c01ec7gy1fsnqqvhfrmj21kw0w0ne1.jpg">
     </a>
   </div>
   <div class="post-content-wrap">
@@ -420,7 +432,7 @@
       <div class="post-date">
         <i class="iconfont icon-time">
         </i>2022-8-24 22:08</div>
-      <a href="/2022/08/24/计算机硬件知识/" class="post-title">
+      <a href="/2022/08/24/jisuanjiyingjianzhishi/" class="post-title">
         <h3>计算机硬件知识</h3>
       </a>
       <div class="post-meta">
@@ -437,7 +449,7 @@
       <div class="float-content">
         <p></p>
         <div class="post-bottom">
-          <a href="/2022/08/24/计算机硬件知识/" class="button-normal">
+          <a href="/2022/08/24/jisuanjiyingjianzhishi/" class="button-normal">
             <i class="iconfont icon-caidan"></i>
           </a>
         </div>
@@ -450,7 +462,7 @@
 <article  class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
 
   <div class="post-thumb">
-    <a href="/2022/08/22/Hexo-Theme-Sakura/">
+    <a href="/2022/08/22/hexothemesakura/">
       <img class="lazyload" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/hiheya/cdn@1.2/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://tva4.sinaimg.cn/large/87c01ec7gy1fsnqqp0vyrj21kw0w0h0v.jpg">
     </a>
   </div>
@@ -459,7 +471,7 @@
       <div class="post-date">
         <i class="iconfont icon-time">
         </i>2022-8-22 22:08</div>
-      <a href="/2022/08/22/Hexo-Theme-Sakura/" class="post-title">
+      <a href="/2022/08/22/hexothemesakura/" class="post-title">
         <h3>Hexo-Theme-Sakura</h3>
       </a>
       <div class="post-meta">
@@ -480,7 +492,7 @@
       <div class="float-content">
         <p>hexo-sakura主题使用教程</p>
         <div class="post-bottom">
-          <a href="/2022/08/22/Hexo-Theme-Sakura/" class="button-normal">
+          <a href="/2022/08/22/hexothemesakura/" class="button-normal">
             <i class="iconfont icon-caidan"></i>
           </a>
         </div>
@@ -1119,5 +1131,5 @@ $(document).ready(function() {
     })
   });
 </script> 
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</body>
 </html>

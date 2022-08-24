@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="/css/jquery.fancybox.min.css" media="all">
   <link rel="stylesheet" href="/css/zoom.css" media="all">
   <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+  <link rel="stylesheet" href="/js/sakura-app.js" type="text/css" media="all" id="saukra_css-css">
+
 <!--   <link rel="stylesheet" id="saukra_css-css" href="https://2heng.xin/wp-content/cache/autoptimize/css/autoptimize_ad42a61f4c7d4bdd9f91afcff6b5dda5.css
 " type="text/css" media="all"> -->
   <script>
@@ -39,6 +41,9 @@
   mashiro_option.v_appId = "GyC3NzMvd0hT9Yyd2hYIC0MN-gzGzoHsz";
   mashiro_option.v_appKey = "mgOpfzbkHYqU92CV4IDlAUHQ";
   mashiro_option.mathjax = "0";
+  mashiro_option.copyright_enable = "false" ;
+  mashiro_option.copyright_minCharNumber = parseInt("80") ;
+  mashiro_option.copyright_description = "本文章著作权归作者所有，任何形式的转载都请注明出处。" ;
   mashiro_option.qq_api_url = "https://api.mashiro.top/qqinfo/"; 
   mashiro_option.qq_avatar_api_url = "https://api.mashiro.top/qqinfo/";
 
@@ -47,6 +52,13 @@
 
   /*End of Initial Variables*/
   </script>
+
+<!--自定义看板娘-->
+<script src="/live2d-widget/jquery.min.js"></script>
+<script src="/live2d-widget/autoload.js"></script>
+<link rel="stylesheet" href="/live2d-widget/font-awesome.min.css">
+
+
   <script type="text/javascript">
   var bg = "https://api.ixiaowai.cn/mcapi/mcapi.php".split(",");
   var bgindex = Math.floor(Math.random()*bg.length);
@@ -1048,5 +1060,5 @@ $(document).ready(function() {
     })
   });
 </script> 
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</body>
 </html>
