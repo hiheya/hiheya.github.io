@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2022-08-23T15:15:15.777Z</updated>
+  <updated>2022-08-24T14:37:02.492Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>计算机硬件知识</title>
+    <link href="/2022/08/24/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A1%AC%E4%BB%B6%E7%9F%A5%E8%AF%86/"/>
+    <id>/2022/08/24/计算机硬件知识/</id>
+    <published>2022-08-24T14:36:40.000Z</published>
+    <updated>2022-08-24T14:37:02.492Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;计算机硬件&quot;&gt;&lt;a href=&quot;#计算机硬件&quot; class=&quot;headerlink&quot; title=&quot;计算机硬件&quot;&gt;&lt;/a&gt;计算机硬件&lt;/h2&gt;&lt;h3 id=&quot;冯诺依曼体系结构&quot;&gt;&lt;a href=&quot;#冯诺依曼体系结构&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Hexo-Theme-Sakura</title>
