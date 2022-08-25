@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2022-08-24T16:27:59.531Z</updated>
+  <updated>2022-08-25T15:09:36.478Z</updated>
   <id>/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>计算机硬件知识</title>
-    <link href="/2022/08/24/jisuanjiyingjianzhishi/"/>
-    <id>/2022/08/24/jisuanjiyingjianzhishi/</id>
-    <published>2022-08-24T14:36:40.000Z</published>
-    <updated>2022-08-24T16:27:59.531Z</updated>
+    <title>WP备份</title>
+    <link href="/2022/08/25/wpbeifen/"/>
+    <id>/2022/08/25/wpbeifen/</id>
+    <published>2022-08-25T14:43:48.000Z</published>
+    <updated>2022-08-25T15:09:36.478Z</updated>
     
     <summary type="html">
     
@@ -29,36 +29,549 @@
       
         
         
-          &lt;h2 id=&quot;计算机硬件&quot;&gt;&lt;a href=&quot;#计算机硬件&quot; class=&quot;headerlink&quot; title=&quot;计算机硬件&quot;&gt;&lt;/a&gt;计算机硬件&lt;/h2&gt;&lt;h3 id=&quot;冯诺依曼体系结构&quot;&gt;&lt;a href=&quot;#冯诺依曼体系结构&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;argon主题选项&quot;&gt;&lt;a href=&quot;#argon主题选项&quot; class=&quot;headerlink&quot; title=&quot;argon主题选项&quot;&gt;&lt;/a&gt;argon主题选项&lt;/h2&gt;&lt;h3 id=&quot;文本附加内容&quot;&gt;&lt;a href=&quot;#文本附加内容&quot;
         
       
     
     </summary>
     
-      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="随想" scheme="/categories/%E9%9A%8F%E6%83%B3/"/>
     
+    
+      <category term="WP" scheme="/tags/WP/"/>
     
   </entry>
   
   <entry>
-    <title>Hexo-Theme-Sakura</title>
-    <link href="/2022/08/22/hexothemesakura/"/>
-    <id>/2022/08/22/hexothemesakura/</id>
-    <published>2022-08-22T14:16:01.000Z</published>
-    <updated>2022-08-23T15:15:15.777Z</updated>
+    <title>记一次office无法联网解决方法</title>
+    <link href="/2022/08/25/jiyiciofficewufalianwangjiejuefangfa/"/>
+    <id>/2022/08/25/jiyiciofficewufalianwangjiejuefangfa/</id>
+    <published>2022-08-25T14:43:38.000Z</published>
+    <updated>2022-08-25T15:05:56.583Z</updated>
     
     <summary type="html">
     
-      hexo-sakura主题使用教程
+      
+      
+        
+        
+          &lt;h2 id=&quot;登录onedrive显示无法连接服务器解决方法&quot;&gt;&lt;a href=&quot;#登录onedrive显示无法连接服务器解决方法&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="生活" scheme="/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="随笔" scheme="/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>设计模式之结构型模式</title>
+    <link href="/2022/08/25/shejimoshizhijiegouxingmoshi/"/>
+    <id>/2022/08/25/shejimoshizhijiegouxingmoshi/</id>
+    <published>2022-08-25T14:43:05.000Z</published>
+    <updated>2022-08-25T15:05:10.907Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;结构型模式&quot;&gt;&lt;a href=&quot;#结构型模式&quot; class=&quot;headerlink&quot; title=&quot;结构型模式&quot;&gt;&lt;/a&gt;结构型模式&lt;/h2&gt;&lt;h3 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot;
+        
+      
     
     </summary>
     
       <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="web" scheme="/tags/web/"/>
+      <category term="Java" scheme="/tags/Java/"/>
     
-      <category term="悦读" scheme="/tags/%E6%82%A6%E8%AF%BB/"/>
+      <category term="设计模式" scheme="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>设计模式之创建者模式</title>
+    <link href="/2022/08/25/shejimoshizhichuangjianzhemoshi/"/>
+    <id>/2022/08/25/shejimoshizhichuangjianzhemoshi/</id>
+    <published>2022-08-25T14:42:54.000Z</published>
+    <updated>2022-08-25T15:05:24.933Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;GOF23&quot;&gt;&lt;a href=&quot;#GOF23&quot; class=&quot;headerlink&quot; title=&quot;GOF23&quot;&gt;&lt;/a&gt;GOF23&lt;/h2&gt;&lt;h3 id=&quot;创建型模式&quot;&gt;&lt;a href=&quot;#创建型模式&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+      <category term="设计模式" scheme="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>排序算法</title>
+    <link href="/2022/08/25/paixusuanfa/"/>
+    <id>/2022/08/25/paixusuanfa/</id>
+    <published>2022-08-25T14:42:35.000Z</published>
+    <updated>2022-08-25T15:05:37.578Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;冒泡排序&quot;&gt;&lt;a href=&quot;#冒泡排序&quot; class=&quot;headerlink&quot; title=&quot;冒泡排序&quot;&gt;&lt;/a&gt;冒泡排序&lt;/h2&gt;&lt;h3 id=&quot;代码：&quot;&gt;&lt;a href=&quot;#代码：&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+      <category term="排序算法" scheme="/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java基础小结</title>
+    <link href="/2022/08/25/javajichuxiaojie/"/>
+    <id>/2022/08/25/javajichuxiaojie/</id>
+    <published>2022-08-25T14:42:17.000Z</published>
+    <updated>2022-08-25T15:04:26.063Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;面向过程-amp-面向对象&quot;&gt;&lt;a href=&quot;#面向过程-amp-面向对象&quot; class=&quot;headerlink&quot; title=&quot;面向过程&amp;amp; 面向对象&quot;&gt;&lt;/a&gt;面向过程&amp;amp; 面向对象&lt;/h2&gt;&lt;h3
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+      <category term="Java基础语法" scheme="/tags/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java异常02</title>
+    <link href="/2022/08/25/javayichang02/"/>
+    <id>/2022/08/25/javayichang02/</id>
+    <published>2022-08-25T14:42:06.000Z</published>
+    <updated>2022-08-25T15:02:18.233Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;捕获异常&quot;&gt;&lt;a href=&quot;#捕获异常&quot; class=&quot;headerlink&quot; title=&quot;捕获异常&quot;&gt;&lt;/a&gt;捕获异常&lt;/h2&gt;&lt;h3 id=&quot;try-catch关键字&quot;&gt;&lt;a href=&quot;#try-catch关键字&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+      <category term="Java异常" scheme="/tags/Java%E5%BC%82%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java异常01</title>
+    <link href="/2022/08/25/javayichang01/"/>
+    <id>/2022/08/25/javayichang01/</id>
+    <published>2022-08-25T14:42:03.000Z</published>
+    <updated>2022-08-25T15:02:07.903Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;异常&quot;&gt;&lt;a href=&quot;#异常&quot; class=&quot;headerlink&quot; title=&quot;异常&quot;&gt;&lt;/a&gt;异常&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+      <category term="Java异常" scheme="/tags/Java%E5%BC%82%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java面向对象04</title>
+    <link href="/2022/08/25/javamianxiangduixiang04/"/>
+    <id>/2022/08/25/javamianxiangduixiang04/</id>
+    <published>2022-08-25T14:41:51.000Z</published>
+    <updated>2022-08-25T15:03:18.064Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;static-关键字&quot;&gt;&lt;a href=&quot;#static-关键字&quot; class=&quot;headerlink&quot; title=&quot;static 关键字&quot;&gt;&lt;/a&gt;static 关键字&lt;/h2&gt;&lt;h3 id=&quot;静态变量与静态方法&quot;&gt;&lt;a href=&quot;#静态变量与静态方法&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+      <category term="Java面向对象" scheme="/tags/Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java面向对象03</title>
+    <link href="/2022/08/25/javamianxiangduixiang03/"/>
+    <id>/2022/08/25/javamianxiangduixiang03/</id>
+    <published>2022-08-25T14:41:48.000Z</published>
+    <updated>2022-08-25T15:03:14.353Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;封装&quot;&gt;&lt;a href=&quot;#封装&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+      <category term="Java面向对象" scheme="/tags/Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java面向对象02</title>
+    <link href="/2022/08/25/javamianxiangduixiang02/"/>
+    <id>/2022/08/25/javamianxiangduixiang02/</id>
+    <published>2022-08-25T14:41:45.000Z</published>
+    <updated>2022-08-25T15:03:11.082Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;构造器&quot;&gt;&lt;a href=&quot;#构造器&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+      <category term="Java面向对象" scheme="/tags/Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java面向对象01</title>
+    <link href="/2022/08/25/javamianxiangduixiang01/"/>
+    <id>/2022/08/25/javamianxiangduixiang01/</id>
+    <published>2022-08-25T14:41:42.000Z</published>
+    <updated>2022-08-25T15:03:08.479Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;面向过程-amp-面向对象&quot;&gt;&lt;a href=&quot;#面向过程-amp-面向对象&quot; class=&quot;headerlink&quot; title=&quot;面向过程&amp;amp; 面向对象&quot;&gt;&lt;/a&gt;面向过程&amp;amp; 面向对象&lt;/h2&gt;&lt;h3
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+      <category term="Java面向对象" scheme="/tags/Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java数组03</title>
+    <link href="/2022/08/25/javashuzu03/"/>
+    <id>/2022/08/25/javashuzu03/</id>
+    <published>2022-08-25T14:41:24.000Z</published>
+    <updated>2022-08-25T15:02:49.895Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Arrays类&quot;&gt;&lt;a href=&quot;#Arrays类&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+      <category term="Java数组" scheme="/tags/Java%E6%95%B0%E7%BB%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java数组02</title>
+    <link href="/2022/08/25/javashuzu02/"/>
+    <id>/2022/08/25/javashuzu02/</id>
+    <published>2022-08-25T14:41:21.000Z</published>
+    <updated>2022-08-25T15:02:42.322Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;内存分析&quot;&gt;&lt;a href=&quot;#内存分析&quot; class=&quot;headerlink&quot; title=&quot;内存分析&quot;&gt;&lt;/a&gt;内存分析&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Java内存分析&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+      <category term="Java数组" scheme="/tags/Java%E6%95%B0%E7%BB%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java数组01</title>
+    <link href="/2022/08/25/javashuzu01/"/>
+    <id>/2022/08/25/javashuzu01/</id>
+    <published>2022-08-25T14:41:17.000Z</published>
+    <updated>2022-08-25T15:02:35.415Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;数组的定义&quot;&gt;&lt;a href=&quot;#数组的定义&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+      <category term="Java数组" scheme="/tags/Java%E6%95%B0%E7%BB%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java方法</title>
+    <link href="/2022/08/25/javafangfa/"/>
+    <id>/2022/08/25/javafangfa/</id>
+    <published>2022-08-25T14:41:09.000Z</published>
+    <updated>2022-08-25T15:04:32.722Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;方法&quot;&gt;&lt;a href=&quot;#方法&quot; class=&quot;headerlink&quot; title=&quot;方法&quot;&gt;&lt;/a&gt;方法&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+      <category term="Java方法" scheme="/tags/Java%E6%96%B9%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java流程控制03</title>
+    <link href="/2022/08/25/javaliuchengkongzhi03/"/>
+    <id>/2022/08/25/javaliuchengkongzhi03/</id>
+    <published>2022-08-25T14:41:01.000Z</published>
+    <updated>2022-08-25T15:03:54.064Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;循环结构&quot;&gt;&lt;a href=&quot;#循环结构&quot; class=&quot;headerlink&quot; title=&quot;循环结构&quot;&gt;&lt;/a&gt;循环结构&lt;/h2&gt;&lt;h3 id=&quot;while-循环&quot;&gt;&lt;a href=&quot;#while-循环&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+      <category term="Java流程控制" scheme="/tags/Java%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java流程控制02</title>
+    <link href="/2022/08/25/javaliuchengkongzhi02/"/>
+    <id>/2022/08/25/javaliuchengkongzhi02/</id>
+    <published>2022-08-25T14:40:57.000Z</published>
+    <updated>2022-08-25T15:03:50.824Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;顺序结构&quot;&gt;&lt;a href=&quot;#顺序结构&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+      <category term="Java流程控制" scheme="/tags/Java%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java流程控制01</title>
+    <link href="/2022/08/25/javaliuchengkongzhi01/"/>
+    <id>/2022/08/25/javaliuchengkongzhi01/</id>
+    <published>2022-08-25T14:38:42.000Z</published>
+    <updated>2022-08-25T15:03:47.752Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;用户交互Scanner&quot;&gt;&lt;a href=&quot;#用户交互Scanner&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+      <category term="Java流程控制" scheme="/tags/Java%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java基础语法04</title>
+    <link href="/2022/08/25/javajichuyufa04/"/>
+    <id>/2022/08/25/javajichuyufa04/</id>
+    <published>2022-08-25T14:37:45.000Z</published>
+    <updated>2022-08-25T15:04:20.806Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;包机制&quot;&gt;&lt;a href=&quot;#包机制&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Java" scheme="/tags/Java/"/>
+    
+      <category term="Java基础语法" scheme="/tags/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
     
   </entry>
   
