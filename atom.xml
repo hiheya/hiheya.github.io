@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2022-08-26T01:11:32.680Z</updated>
+  <updated>2022-08-26T03:42:15.503Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,167 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>分析Android项目运行</title>
+    <link href="/2022/08/26/fenxiandroidxiangmuyunxing/"/>
+    <id>/2022/08/26/fenxiandroidxiangmuyunxing/</id>
+    <published>2022-08-26T03:41:59.000Z</published>
+    <updated>2022-08-26T03:42:15.503Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;分析安卓项目如何运行&quot;&gt;&lt;a href=&quot;#分析安卓项目如何运行&quot; class=&quot;headerlink&quot; title=&quot;分析安卓项目如何运行&quot;&gt;&lt;/a&gt;分析安卓项目如何运行&lt;/h2&gt;&lt;h3 id=&quot;AndroidManifest-xml&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>第一个Android程序</title>
+    <link href="/2022/08/26/diyigeandroidchengxu/"/>
+    <id>/2022/08/26/diyigeandroidchengxu/</id>
+    <published>2022-08-26T03:40:36.000Z</published>
+    <updated>2022-08-26T03:41:30.831Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;创建第一个Android项目&quot;&gt;&lt;a href=&quot;#创建第一个Android项目&quot; class=&quot;headerlink&quot; title=&quot;创建第一个Android项目&quot;&gt;&lt;/a&gt;创建第一个Android项目&lt;/h2&gt;&lt;h3
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="随笔" scheme="/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="Android" scheme="/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>xray面板安装</title>
+    <link href="/2022/08/26/xraymianbananzhuang/"/>
+    <id>/2022/08/26/xraymianbananzhuang/</id>
+    <published>2022-08-26T03:37:14.000Z</published>
+    <updated>2022-08-26T03:38:41.071Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h2 id=&quot;一、升级yum，安装curl依赖包&quot;&gt;&lt;a href=&quot;#一、升级yum，安装curl依赖包&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="随笔" scheme="/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>预装APP安装过程</title>
+    <link href="/2022/08/26/yuzhuangappanzhuangguocheng/"/>
+    <id>/2022/08/26/yuzhuangappanzhuangguocheng/</id>
+    <published>2022-08-26T03:35:26.000Z</published>
+    <updated>2022-08-26T03:36:21.841Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h2 id=&quot;一、将app上传到项目目录&quot;&gt;&lt;a href=&quot;#一、将app上传到项目目录&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="随笔" scheme="/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记第公司开发环境搭建</title>
+    <link href="/2022/08/26/jidigongsikaifahuanjingdajian/"/>
+    <id>/2022/08/26/jidigongsikaifahuanjingdajian/</id>
+    <published>2022-08-26T03:34:19.000Z</published>
+    <updated>2022-08-26T03:34:53.895Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;一-adb安装&quot;&gt;&lt;a href=&quot;#一-adb安装&quot; class=&quot;headerlink&quot; title=&quot;一.adb安装&quot;&gt;&lt;/a&gt;一.adb安装&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;点击 &lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="资源" scheme="/categories/%E8%B5%84%E6%BA%90/"/>
+    
+    
+      <category term="随笔" scheme="/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记第一次完成业务需求</title>
+    <link href="/2022/08/26/jidiyiciwanchengyewuxuqiu/"/>
+    <id>/2022/08/26/jidiyiciwanchengyewuxuqiu/</id>
+    <published>2022-08-26T03:31:28.000Z</published>
+    <updated>2022-08-26T03:33:51.699Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;第一次完成业务需求&quot;&gt;&lt;a href=&quot;#第一次完成业务需求&quot; class=&quot;headerlink&quot; title=&quot;第一次完成业务需求&quot;&gt;&lt;/a&gt;第一次完成业务需求&lt;/h2&gt;&lt;h3 id=&quot;业务需求&quot;&gt;&lt;a href=&quot;#业务需求&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="git" scheme="/tags/git/"/>
+    
+      <category term="随笔" scheme="/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>git-push时冲突解决方法</title>
@@ -401,177 +562,6 @@
       <category term="Java" scheme="/tags/Java/"/>
     
       <category term="Java数组" scheme="/tags/Java%E6%95%B0%E7%BB%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Java数组02</title>
-    <link href="/2022/08/25/javashuzu02/"/>
-    <id>/2022/08/25/javashuzu02/</id>
-    <published>2022-08-25T14:41:21.000Z</published>
-    <updated>2022-08-25T15:02:42.322Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;内存分析&quot;&gt;&lt;a href=&quot;#内存分析&quot; class=&quot;headerlink&quot; title=&quot;内存分析&quot;&gt;&lt;/a&gt;内存分析&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;Java内存分析&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img
-        
-      
-    
-    </summary>
-    
-      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="Java" scheme="/tags/Java/"/>
-    
-      <category term="Java数组" scheme="/tags/Java%E6%95%B0%E7%BB%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Java数组01</title>
-    <link href="/2022/08/25/javashuzu01/"/>
-    <id>/2022/08/25/javashuzu01/</id>
-    <published>2022-08-25T14:41:17.000Z</published>
-    <updated>2022-08-25T15:02:35.415Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;数组的定义&quot;&gt;&lt;a href=&quot;#数组的定义&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="Java" scheme="/tags/Java/"/>
-    
-      <category term="Java数组" scheme="/tags/Java%E6%95%B0%E7%BB%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Java方法</title>
-    <link href="/2022/08/25/javafangfa/"/>
-    <id>/2022/08/25/javafangfa/</id>
-    <published>2022-08-25T14:41:09.000Z</published>
-    <updated>2022-08-25T15:04:32.722Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;方法&quot;&gt;&lt;a href=&quot;#方法&quot; class=&quot;headerlink&quot; title=&quot;方法&quot;&gt;&lt;/a&gt;方法&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="Java" scheme="/tags/Java/"/>
-    
-      <category term="Java方法" scheme="/tags/Java%E6%96%B9%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Java流程控制03</title>
-    <link href="/2022/08/25/javaliuchengkongzhi03/"/>
-    <id>/2022/08/25/javaliuchengkongzhi03/</id>
-    <published>2022-08-25T14:41:01.000Z</published>
-    <updated>2022-08-25T15:03:54.064Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;循环结构&quot;&gt;&lt;a href=&quot;#循环结构&quot; class=&quot;headerlink&quot; title=&quot;循环结构&quot;&gt;&lt;/a&gt;循环结构&lt;/h2&gt;&lt;h3 id=&quot;while-循环&quot;&gt;&lt;a href=&quot;#while-循环&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="Java" scheme="/tags/Java/"/>
-    
-      <category term="Java流程控制" scheme="/tags/Java%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Java流程控制02</title>
-    <link href="/2022/08/25/javaliuchengkongzhi02/"/>
-    <id>/2022/08/25/javaliuchengkongzhi02/</id>
-    <published>2022-08-25T14:40:57.000Z</published>
-    <updated>2022-08-25T15:03:50.824Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;顺序结构&quot;&gt;&lt;a href=&quot;#顺序结构&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="Java" scheme="/tags/Java/"/>
-    
-      <category term="Java流程控制" scheme="/tags/Java%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Java流程控制01</title>
-    <link href="/2022/08/25/javaliuchengkongzhi01/"/>
-    <id>/2022/08/25/javaliuchengkongzhi01/</id>
-    <published>2022-08-25T14:38:42.000Z</published>
-    <updated>2022-08-25T15:03:47.752Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;用户交互Scanner&quot;&gt;&lt;a href=&quot;#用户交互Scanner&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="Java" scheme="/tags/Java/"/>
-    
-      <category term="Java流程控制" scheme="/tags/Java%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/"/>
     
   </entry>
   
