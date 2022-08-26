@@ -89,7 +89,9 @@
         </a>
       </div>
       <div class="header-info">
-        <p>与君共赴，万里征程。</p>
+        <!-- <p>与君共赴，万里征程。</p> -->
+        <p id="jinrishici-sentence">正在加载今日诗词....</p>
+        <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
         <div class="top-social_v2">
           <li id="bg-pre">
             <img class="flipx" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/next-b.svg">
@@ -290,7 +292,7 @@
               </li>
             
               <li>
-                <a href="javascript:;">
+                <a href="/tags">
                   <span class="faa-parent animated-hover">
                     <i class="fa  fa fa-bookmark" aria-hidden="true"></i>
                     标签
@@ -791,6 +793,23 @@
         <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/wordpress-rotating-ball-o.svg">
         <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/disqus-preloader.svg">
       </div>
+      <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+      <script>
+        var now = new Date();
+        function createtime() {
+          var grt= new Date("08/22/2022 16:44:00");//此处修改你的建站时间或者网站上线时间
+          now.setTime(now.getTime()+250);
+          days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+          hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+          if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+          mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+          seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+          snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+          document.getElementById("timeDate").innerHTML = "本站已运行 "+dnum+" 天 ";
+          document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+        }
+        setInterval("createtime()",250);
+      </script>
       <p style="color: #666666;">Copyright 2022 Rookie_l, All Rights Reserved.</p>
     </div>
     <div class="footer-device">
@@ -983,7 +1002,7 @@ $(document).ready(function() {
       </li>
     
       <li>
-        <a href="javascript:;">
+        <a href="/tags">
           <span class="faa-parent animated-hover">
             <i class="fa  fa fa-bookmark" aria-hidden="true"></i>
             标签
@@ -1140,9 +1159,18 @@ $(document).ready(function() {
   });
 </script>
   
-  <script src= /js/shehuizhuyi.js></script>
+  <!-- 网站标题恶搞 -->
   <script src= /js/hititle.js></script>
+  <!-- 点击显示社会主义核心价值观和爱心 -->
+  <script src= /js/shehuizhuyi.js></script>
+  <script src= /js/love.js></script>
+  <!-- 背景添加动态线条，随鼠标动 -->
+  <script src= /js/canvas-nest.min.js></script>
+  <!-- 背景显示飘动的彩带 -->
+  <script src= /js/piao.js></script>
+  <!-- 樱花飘落特效 -->
   <script src= /js/sakura.js></script>
+  <!-- 禁止鼠标右键以及F12 -->
   <script src= /js/noSomeKey.js></script>
 
   <!-- 实现换肤功能 -->
@@ -1276,7 +1304,7 @@ $(document).ready(function() {
       </li>
     
       <li>
-        <a href="javascript:;">
+        <a href="/tags">
           <span class="faa-parent animated-hover">
             <i class="fa  fa fa-bookmark" aria-hidden="true"></i>
             标签
