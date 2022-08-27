@@ -781,6 +781,11 @@
         <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/wordpress-rotating-ball-o.svg">
         <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/disqus-preloader.svg">
       </div>
+      <div class="footer-device">
+        <p>
+          <i class="iconfont icon-sakura rotating" style="color: #ffc0cb;display:inline-block"></i> <a href="https://icu007.work" data-pjax-state=""> Rookie_l </a>  •  <a href="https://beian.miit.gov.cn/" target="_blank">  赣ICP备2022002260号  </a>
+        </p>
+      </div>
       <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
       <script>
         var now = new Date();
@@ -793,18 +798,14 @@
           mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
           seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
           snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
-          document.getElementById("timeDate").innerHTML = "本站已运行 "+dnum+" 天 ";
+          document.getElementById("timeDate").innerHTML = "本站已艰难运行 "+dnum+" 天 ";
           document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
         }
         setInterval("createtime()",250);
       </script>
       <p style="color: #666666;">Copyright 2022 Rookie_l, All Rights Reserved.</p>
     </div>
-    <div class="footer-device">
-      <p>
-        <i class="iconfont icon-sakura rotating" style="color: #ffc0cb;display:inline-block"></i> <a href="https://icu007.work" data-pjax-state=""> Rookie_l </a>  •  <a href="https://beian.miit.gov.cn/" target="_blank">  赣ICP备2022002260号  </a>
-      </p>
-    </div>
+    
     <span style="color:#f99;padding-left:20px"><i class="fa fa-fire" aria-hidden="true"></i>Total <span id="busuanzi_value_site_pv"></span> views.
     您是这个小破站的第 <span id="busuanzi_value_site_uv"></span>个小伙伴  
     <span id="busuanzi_value_page_pv"></span> Hits</span>
