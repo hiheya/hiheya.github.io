@@ -4374,7 +4374,8 @@ transform: translateY(5px);}
   
   .reward-list-item .reward-list-item-money {
     padding: 4px;
-    background: linear-gradient(to right, rgb(189, 176, 101) 0%, rgba(255,215,0) 50%, #f5c300 51%, #f5c300 100%);
+    background-image: linear-gradient(135deg, #dfe9f3 0%, white 100%);
+    /* background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%); background-blend-mode: screen; */
     color: rgb(105, 92, 14);
     font-size: 12px;
     line-height: 1;
