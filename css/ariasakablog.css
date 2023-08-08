@@ -5839,3 +5839,19 @@ transform: translateY(5px);}
 .category-list::-webkit-scrollbar{
     display: none!important;
 }
+
+/* 评论相关 */
+
+
+.v[data-class=v] .vcards .vcard .vcontent {
+    border: 2px dashed #3498db;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(188, 143, 239, 0.871);
+    padding: 10px;
+    color: rgba(188, 143, 239, 0.871); /* 设置字体颜色 */
+    transition: border-color 0.3s ease-in-out;
+}
+
+.v[data-class=v] .vcards .vcard .vcontent:hover {
+    border-color: rgba(188, 143, 239, 0.871);
+}
