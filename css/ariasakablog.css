@@ -651,7 +651,7 @@ th{
 }
 hr{
     background:url(https://cdn1.tianli0.top/npm/hassan-assets/img/Bilibili_Dividing_Line.png);
-    height:54px;
+    height:39px;
     max-width: 100%;
     border:hidden;
     /* background-repeat: no-repeat; */
@@ -1538,8 +1538,8 @@ del:not(.noheimu):hover,s:hover{
     width: fit-content;
     background-color: var(--lyx-theme)!important;
     box-shadow:0 0 6px  var(--lyx-theme)!important;
-    transform: scale(1.2); /* 在active时元素变大, 大小为原始大小的110% */
-    /* transition-property: background-color, box-shadow, transform;  */
+    transform: scale(1.2); 
+    transition-property: background-color, box-shadow, transform; 
 }
 .shuoshuo{
     flex:1;
@@ -3236,7 +3236,9 @@ transform: translateY(5px);}
 }
 .card-widget.card-info{
     /* background-color: transparent!important; */
-    background-image: url(https://bu.dusays.com/2022/10/14/6349563d04bea.webp)!important;
+    background-image: url(/img/info.webp)!important;
+    /* background-image: url(https://bu.dusays.com/2022/10/14/6349563d04bea.webp)!important; */
+    /* background-image: url(https://pic.ziyuan.wang/2023/07/29/48c89ff7812b5.png)!important; */
     background-repeat: no-repeat;
     /* 背景图像大小 */
     background-size:cover!important;

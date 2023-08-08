@@ -260,7 +260,7 @@
       position: relative;
       margin: 2rem 0 0.5rem;
       padding: 1.5rem 0.8rem;
-      border: 8px solid var(--HiPeach-copyright-border); /*卡片边框*/
+      border: 2px solid rgba(226, 209, 195, 0.8); /*卡片边框*/
       border-radius: 20px; /*边框圆角*/
     }
       #post .post-copyright:before {
@@ -690,7 +690,7 @@
     background-color: var(--HiPeach-card-bg);
     color: var(--HiPeach-lighttext);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
   }
   [data-theme=dark].toc .toc-item.active .toc-link .toc-text {
     color: var(--HiPeach-white);
@@ -1184,7 +1184,7 @@
   
   /*作者卡片*/
   #aside-content > .card-widget:first-child {
-    background: #fff url(/media/info.webp) top -24% center no-repeat;
+    background: rgba(255, 255, 255, 0.2) url(/img/info.webp) top -24% center no-repeat;
   }
   
   [data-theme=dark] #aside-content>.card-widget:first-child {

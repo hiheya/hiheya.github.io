@@ -17,21 +17,39 @@ if ('serviceWorker' in window.navigator && navigator.serviceWorker.controller) {
     })
 }
 
-if (localStorage.getItem("popWelcomeWindow") != "0") {
-    if(document.referrer==undefined||document.referrer.indexOf("hiheya.github.io")!=-1||document.referrer.indexOf("icu007work.gitee.io")!=-1){
-        Snackbar.show({
-            pos: "top-right",
-            showAction: false,
-            text: '欢迎访问本站！'
-        })
-    }else{
-        Snackbar.show({
-                pos: "top-right",
-                showAction: false,
-                text: `欢迎来自${document.referrer.split("://")[1].split("/")[0]}的童鞋访问本站！`
-            })
+// if (localStorage.getItem("popWelcomeWindow") != "0") {
+//     if(document.referrer==undefined||document.referrer.indexOf("hiheya.github.io")!=-1||document.referrer.indexOf("icu007work.gitee.io")!=-1){
+//         Snackbar.show({
+//             pos: "top-right",
+//             showAction: false,
+//             text: '欢迎访问本站！'
+//         })
+//     }else{
+//         Snackbar.show({
+//                 pos: "top-right",
+//                 showAction: false,
+//                 text: `欢迎来自${document.referrer.split("://")[1].split("/")[0]}的童鞋访问本站！`
+//             })
+//         localStorage.setItem("popWelcomeWindow", "0");
+//     }
+// }
+if (localStorage.getItem("popWelcomeWindow") !== "0") {
+    const host = window.location.hostname;
+    let welcomeMessage = '欢迎访问本站！';
+
+    if (host !== "hiheya.github.io" && host !== "icu007work.gitee.io") {
+        const parts = host.split('.');
+        if (parts.length > 1) {
+            welcomeMessage = `欢迎来自${parts[0]}的童鞋访问本站！`;
+        }
         localStorage.setItem("popWelcomeWindow", "0");
     }
+
+    Snackbar.show({
+        pos: "top-right",
+        showAction: false,
+        text: welcomeMessage
+    });
 }
 if (sessionStorage.getItem("popCookieWindow") != "0") {
     setTimeout(function () {
