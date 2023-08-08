@@ -1,5 +1,5 @@
 /*颜色代码*/
-:root {
+/* :root {
     --HiPeach-theme-op: #4259ef23;
     --HiPeach-gray-op: #9999992b;
     --HiPeach-theme-top: var(--HiPeach-theme);
@@ -36,8 +36,8 @@
     --HiPeach-black-acrylic1: #0b0b0e !important;
     --HiPeach-main-none: #b8b8b800 !important;
     --HiPeach-transparent-border: transparent;
-    /* --btn-bg: #005ffe; */
-    /* --btn-hover-color: #0047d4; */
+    --btn-bg: #005ffe; 
+    --btn-hover-color: #0047d4; 
     --HiPeach-footer-bg: transparent;
     --HiPeach-footer-secondbg: transparent;
     --HiPeach-footer-titlecolor: #a2a2f3;
@@ -57,9 +57,9 @@
     --HiPeach-button-shadow: hsla(0, 0%, 22%, 0.2);
     --HiPeach-radius: 7px;
     --HiPeach-card-border-width: 1px;
-  }
+  } */
   
-  [data-theme="light"] {
+  /* [data-theme="light"] {
     --HiPeach-theme: #3b70fc;
     --HiPeach-theme-op: #4259ef23;
     --HiPeach-blue: #3b70fc;
@@ -93,9 +93,9 @@
     --HiPeach-card-border: #e3e8f7;
     --style-border-always: 1px solid var(--HiPeach-card-border);
     --HiPeach-blue: #425AEF;
-  }
+  } */
   
-  [data-theme="dark"] {
+  /* [data-theme="dark"] {
     --global-bg: #191919;
     --HiPeach-theme: #0084ff;
     --HiPeach-theme-op: #0084ff23;
@@ -136,7 +136,7 @@
     --HiPeach-card-border: #42444a;
     --style-border-always: 1px solid var(--HiPeach-card-border);
     --HiPeach-blue: #0084FF;
-  }
+  } */
   
   /* 文章页H1-H6图标样式效果 */
   h1::before,
