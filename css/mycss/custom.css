@@ -1,0 +1,1359 @@
+/*颜色代码*/
+:root {
+    --HiPeach-theme-op: #4259ef23;
+    --HiPeach-gray-op: #9999992b;
+    --HiPeach-theme-top: var(--HiPeach-theme);
+    --HiPeach-white: #fff;
+    --HiPeach-white-op: rgba(255, 255, 255, 0.2);
+    --HiPeach-black: #000;
+    --HiPeach-black-op: rgba(0, 0, 0, 0.2);
+    --HiPeach-none: rgba(0, 0, 0, 0);
+    --HiPeach-gray: rgb(50, 50, 50);
+    --HiPeach-yellow: #ffc93e;
+    --HiPeach-border-radius: 8px;
+    --HiPeach-main: var(--HiPeach-theme);
+    --HiPeach-main-op: var(--HiPeach-theme-op);
+    --HiPeach-shadow-theme: 0 8px 12px -3px var(--HiPeach-theme-op);
+    --HiPeach-shadow-main: 0 8px 12px -3px var(--HiPeach-main-op);
+    --HiPeach-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234, 0.2);
+    --HiPeach-shadow-white: 0 8px 12px -3px rgba(255, 255, 255, 0.2);
+    --HiPeach-shadow-black: 0 0 12px 4px rgba(0, 0, 0, 0.05);
+    --HiPeach-shadow-yellow: 0px 38px 77px -26px rgba(255, 201, 62, 0.12);
+    --HiPeach-shadow-red: 0 8px 12px -3px #ee7d7936;
+    --HiPeach-shadow-green: 0 8px 12px -3px #87ee7936;
+    --HiPeach-shadow-border: 0 8px 16px -4px #2c2d300c;
+    --HiPeach-shadow-blackdeep: 0 2px 16px -3px rgba(0, 0, 0, 0.15);
+    --HiPeach-logo-color: linear-gradient(215deg, #4584ff 30%, #ff7676 70%);
+    --style-border: 1px solid var(--HiPeach-card-border);
+    --HiPeach-blue-main: #3b70fc;
+    --style-border-hover: 1px solid var(--HiPeach-main);
+    --style-border-dashed: 1px dashed var(--HiPeach-theme-op);
+    --style-border-avatar: 4px solid var(--HiPeach-background);
+    --style-border-always: 1px solid var(--HiPeach-card-border);
+    --HiPeach-white-acrylic1: #fefeff !important;
+    --HiPeach-white-acrylic2: #fcfdff !important;
+    --HiPeach-black-acrylic2: #08080a !important;
+    --HiPeach-black-acrylic1: #0b0b0e !important;
+    --HiPeach-main-none: #b8b8b800 !important;
+    --HiPeach-transparent-border: transparent;
+    /* --btn-bg: #005ffe; */
+    /* --btn-hover-color: #0047d4; */
+    --HiPeach-footer-bg: transparent;
+    --HiPeach-footer-secondbg: transparent;
+    --HiPeach-footer-titlecolor: #a2a2f3;
+    --HiPeach-footer-fontcolor: #bc8fefde;
+    --HiPeach-footer-linkbg: #363636;
+    --HiPeach-footer-linkcolor: #af80e4;
+    --HiPeach-footer-hoverlinkbg: #6f71d3;
+    --HiPeach-footer-hoverlinkcolor: #fff;
+    --HiPeach-footer-hoverfontcolor: #6d91f5;
+    --HiPeach-footer-hovertitlecolor: #af80e4;
+    --HiPeach-white-top: rgb(238,238,238);
+    --HiPeach-float-win-bg: whitesmoke;
+    --HiPeach-globle-font: black;
+    --HiPeach-button-dark-hover: #0084ff;
+    --HiPeach-button-dark-bg: #66ccff;
+    --HiPeach-button-font: white;
+    --HiPeach-button-shadow: hsla(0, 0%, 22%, 0.2);
+    --HiPeach-radius: 7px;
+    --HiPeach-card-border-width: 1px;
+  }
+  
+  [data-theme="light"] {
+    --HiPeach-theme: #3b70fc;
+    --HiPeach-theme-op: #4259ef23;
+    --HiPeach-blue: #3b70fc;
+    --HiPeach-red: #d8213c;
+    --HiPeach-pink: #ff7c7c;
+    --HiPeach-green: #57bd6a;
+    --HiPeach-fontcolor: #363636;
+    --HiPeach-background: #f7f9fe;
+    --HiPeach-reverse: #000;
+    --HiPeach-maskbg: rgba(255, 255, 255, 0.6);
+    --HiPeach-maskbgdeep: rgba(255, 255, 255, 0.85);
+    --HiPeach-hovertext: var(--HiPeach-theme);
+    --HiPeach-ahoverbg: #f7f7fa;
+    --HiPeach-lighttext: #6f42c1;
+    --HiPeach-secondtext: rgba(60, 60, 67, 0.6);
+    --HiPeach-scrollbar: rgba(60, 60, 67, 0.4);
+    --HiPeach-card-btn-bg: #edf0f7;
+    --HiPeach-post-blockquote-bg: #fafcff;
+    --HiPeach-post-tabs-bg: #f2f5f8;
+    --HiPeach-secondbg: #edf0f7;
+    --HiPeach-shadow-nav: 0 5px 12px -5px rgba(102, 68, 68, 0.05);
+    --HiPeach-card-bg: #fff;
+    --HiPeach-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+    --HiPeach-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
+    --HiPeach-card-border: #c0c6d8;
+    --HiPeach-code-bg: #3b70fc;
+    --HiPeach-code-color: #f7f7fa;
+    --HiPeach-copyright-border: #f6f6f6;
+    --HiPeach-border-color: #e3e8f7;
+    --HiPeach-card-bg: #fff;
+    --HiPeach-card-border: #e3e8f7;
+    --style-border-always: 1px solid var(--HiPeach-card-border);
+    --HiPeach-blue: #425AEF;
+  }
+  
+  [data-theme="dark"] {
+    --global-bg: #191919;
+    --HiPeach-theme: #0084ff;
+    --HiPeach-theme-op: #0084ff23;
+    --HiPeach-blue: #0084ff;
+    --HiPeach-red: #ff3842;
+    --HiPeach-pink: #ff7c7c;
+    --HiPeach-green: #57bd6a;
+    --HiPeach-fontcolor: rgb(225, 225, 225);
+    --HiPeach-background: #18171d;
+    --HiPeach-reverse: #fff;
+    --HiPeach-maskbg: rgba(0, 0, 0, 0.6);
+    --HiPeach-maskbgdeep: rgba(0, 0, 0, 0.85);
+    --HiPeach-hovertext: #0a84ff;
+    --HiPeach-ahoverbg: #fff;
+    --HiPeach-lighttext: #f2b94b;
+    --HiPeach-secondtext: #a1a2b8;
+    --HiPeach-scrollbar: rgba(200, 200, 223, 0.4);
+    --HiPeach-card-btn-bg: #30343f;
+    --HiPeach-post-blockquote-bg: #000;
+    --HiPeach-post-tabs-bg: #121212;
+    --HiPeach-secondbg: #30343f;
+    --HiPeach-shadow-nav: 0 5px 20px 0px rgba(28, 28, 28, 0.4);
+    --HiPeach-card-bg: #1d1e22;
+    --HiPeach-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+    --HiPeach-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
+    --HiPeach-card-border: #42444a;
+    --HiPeach-code-bg: #30343f;
+    --HiPeach-code-color: #f2b94b;
+    --HiPeach-copyright-border: #212121;
+    --HiPeach-float-win-bg: #141414;
+    --HiPeach-globle-font: white;
+    --HiPeach-button-dark-hover: #49505d;
+    --HiPeach-button-dark-bg: #1f1f1f;
+    --HiPeach-button-font: #66ccff;
+    --HiPeach-button-shadow: #212121;
+    --HiPeach-border-color: #42444a;
+    --HiPeach-card-bg: #1d1b26;
+    --HiPeach-card-border: #42444a;
+    --style-border-always: 1px solid var(--HiPeach-card-border);
+    --HiPeach-blue: #0084FF;
+  }
+  
+  /* 文章页H1-H6图标样式效果 */
+  h1::before,
+  h2::before,
+  h3::before,
+  h4::before,
+  h5::before,
+  h6::before {
+    -webkit-animation: ccc 1.6s linear infinite;
+    animation: ccc 1.6s linear infinite;
+  }
+  @-webkit-keyframes ccc {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(-1turn);
+      transform: rotate(-1turn);
+    }
+  }
+  @keyframes ccc {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(-1turn);
+      transform: rotate(-1turn);
+    }
+  }
+  #content-inner.layout h1::before {
+      color: #ef50a8;
+      margin-left: -1.55rem;
+      font-size: 1.3rem;
+      margin-top: -0.23rem;
+    }
+    #content-inner.layout h2::before {
+      color: #fb7061;
+      margin-left: -1.35rem;
+      font-size: 1.1rem;
+      margin-top: -0.12rem;
+    }
+    #content-inner.layout h3::before {
+      color: #ffbf00;
+      margin-left: -1.22rem;
+      font-size: 0.95rem;
+      margin-top: -0.09rem;
+    }
+    #content-inner.layout h4::before {
+      color: #a9e000;
+      margin-left: -1.05rem;
+      font-size: 0.8rem;
+      margin-top: -0.09rem;
+    }
+    #content-inner.layout h5::before {
+      color: #57c850;
+      margin-left: -0.9rem;
+      font-size: 0.7rem;
+      margin-top: 0rem;
+    }
+    #content-inner.layout h6::before {
+      color: #5ec1e0;
+      margin-left: -0.9rem;
+      font-size: 0.66rem;
+      margin-top: 0rem;
+    }
+    #content-inner.layout h1:hover::before,
+    #content-inner.layout h2:hover::before,
+    #content-inner.layout h3:hover::before,
+    #content-inner.layout h4:hover::before,
+    #content-inner.layout h5:hover::before,
+    #content-inner.layout h6:hover::before {
+      color: rgb(90,135,255);
+      -webkit-animation: ccc 3.2s linear infinite;
+      animation: ccc 3.2s linear infinite;
+    }
+    
+  /* 页面设置icon转动速度调整 */
+  #rightside_config i.fas.fa-cog.fa-spin {
+      animation: fa-spin 5s linear infinite;
+    }
+  
+  /*个人信息按钮圆角*/
+  #card-info-btn {
+      border-radius: 7px;
+      overflow: hidden;
+    }
+  
+  /*页码按钮美化*/
+  .layout>.recent-posts .pagination> {
+      display: inline-block;
+      margin: 0 6px;
+      width: 2.5em;
+      height: 2.5em;
+      line-height: 2.5em;
+    }
+    
+  /*页码按钮圆角*/
+  #pagination .page-number.current {
+    border-radius: 7px;
+    }
+  
+  /*文章卡片圆角*/
+  .layout > div:first-child:not(.recent-posts) {
+      border-radius: 35px;
+    }
+  
+  /*目录卡片圆角*/
+  #aside-content .card-widget {
+      border-radius: 20px;
+    }
+  
+  /*首页文章圆角*/
+  .layout > .recent-posts > .recent-post-item {
+      border-radius: 20px !important
+    }
+  
+  /*版权卡片*/
+  #post .post-copyright {
+      position: relative;
+      margin: 2rem 0 0.5rem;
+      padding: 1.5rem 0.8rem;
+      border: 8px solid var(--HiPeach-copyright-border); /*卡片边框*/
+      border-radius: 20px; /*边框圆角*/
+    }
+      #post .post-copyright:before {
+      position: absolute;
+      top: -1.9rem; /*C位置*/
+      color: #49b1f540; /*C颜色*/
+      font-size: 6rem; /*C大小*/
+    }
+  
+  /* 头图透明 */
+  #page-header{
+    background: transparent!important;
+    }
+    
+  /*头图黑色透明玻璃效果移除 */
+  #page-header.post-bg:before {
+    background-color: transparent!important;
+    }
+    
+  /*伪类遮罩层透明*/
+  #page-header::before{
+    background: transparent!important;
+    }
+  
+  /* 代码块文字居中 */
+  #article-container figure.highlight .highlight-tools .code-lang {
+    left: 50%!important;
+    transform: translateX(-50%);
+    }
+  
+  /*选中文字颜色*/
+  *::selection {
+    background: rgba(90,135,255);
+    color: #ffffff;
+    }
+  
+  /* 滚动条 */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    display: none
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #6f42c1;
+    background-image: -webkit-linear-gradient( 45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent);
+    border-radius: 2em;
+    display: none
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background-color: transparent;
+    display: none
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-image: url(/media/scrollbar.webp);
+    display: none
+  }
+  
+  /* 头像微调 */
+  .flink-item-icon {
+    margin-right: 0 !important;
+    transition: .5s !important;
+  }
+  
+  .flink-item-name,
+  .flink-item-desc {
+    padding-left: 10px !important;
+  }
+  
+  /* 去掉原来自带的before */
+  #article-container .flink .flink-list>.flink-list-item::before {
+    content: none;
+  }
+  
+  /* 鼠标经过改变背景 */
+  #article-container .flink .flink-list>.flink-list-item:hover {
+    background: linear-gradient(45deg, #07a6f1 25%, #633e9c);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+  }
+  
+  /* 鼠标经过改变文字颜色 */
+  #article-container .flink .flink-list>.flink-list-item:hover a {
+    color: white !important;
+  }
+  
+  /* 鼠标经过头像滚动 */
+  #article-container .flink .flink-list>.flink-list-item:hover .flink-item-icon {
+    width: 60px;
+    margin-left: -70px;
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+  
+  /*隐藏文章描述*/
+  #recent-posts > .recent-post-item >.recent-post-info > .content {
+    display: none;
+  }
+  
+  /*Footer*/
+  #footer-wrap {
+    color: var(--HiPeach-fontcolor)
+  }
+  
+  #footer-wrap a {
+    color: var(--HiPeach-fontcolor);
+    height: 44px;
+    line-height: 36px
+  }
+  
+  #footer-wrap a:hover {
+    color: var(--HiPeach-hovertext);
+    background-color: var(--HiPeach-none)
+  }
+  
+  div#footer_deal {
+    justify-content: center;
+    display: flex;
+    padding-top: 2rem;
+    align-items: center
+  }
+  
+  @media screen and (max-width: 768px) {
+    img.footer_mini_logo {
+        display: none
+    }
+  
+    div#footer_deal {
+        flex-wrap: wrap;
+        flex-direction: row
+    }
+  }
+  
+  a.deal_link {
+    display: flex;
+    margin: 1rem 27px;
+    color: var(--HiPeach-footer-linkcolor);
+    border-radius: 3rem;
+    width: 37px;
+    height: 37px;
+    background: var(--HiPeach-footer-linkbg);
+    justify-content: center;
+    align-items: center;
+    transition: .3s
+  }
+  
+  a.deal_link:hover {
+    color: var(--HiPeach-footer-hoverlinkcolor);
+    background: var(--HiPeach-footer-hoverlinkbg)
+  }
+  
+  img.footer_mini_logo {
+    width: 65px;
+    height: 65px;
+    margin: 0 1rem;
+    cursor: pointer;
+    /*filter: drop-shadow(0 12px 12px #ee7d7936);*/
+    transition: cubic-bezier(0, 0, 0, 1.29) .5s
+  }
+  
+  img.footer_mini_logo:hover {
+    --webkit-backface-visibility: hidden;
+    --webkit-transform-style: preserve-3d
+  }
+  
+  @media screen and (min-width: 1300px) {
+    img.footer_mini_logo:hover {
+        transform: scale(1.03)
+    }
+  
+    img.footer_mini_logo:active {
+        transform: scale(.97)
+    }
+  }
+  
+  #weblogo {
+    align-self: center
+  }
+  
+  #footer-wrap a#HiPeachblog_footerlogo:hover {
+    background: var(--HiPeach-none)
+  }
+  
+  .HiPeachblog_footerlogo_img {
+    filter: drop-shadow(0 12px 12px #ee7d7936)
+  }
+  
+  .HiPeachblog_footerlogo_img:hover {
+    transform: scale(1.03)
+  }
+  
+  #footer {
+    /* background: rgba(255, 255, 255, 0.5); */
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* z-index: 1002 */
+  }
+  
+  @media screen and (max-width: 768px) {
+    #footer {
+        background: var(--HiPeach-footer-bg);
+        margin-top: 0;
+        z-index: 999
+    }
+  }
+  
+  [data-theme=dark] #footer:before, [data-theme=dark] #page-header:before, [data-theme=dark] #web_bg:before {
+    background-color: var(--HiPeach-none) !important
+  }
+  
+  @media screen and (max-width: 768px) {
+    #letlink {
+        flex-direction: column !important;
+        text-align: center !important
+    }
+  
+    #letlogo {
+        display: none !important
+    }
+  
+    #footer-wrap {
+        margin-top: 1rem !important
+    }
+  }
+  
+  .footer-banner-right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+  }
+  
+  #footer-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 50px 0 50px;
+    text-align: left !important;
+    max-width: 1200px;
+    margin: 0 auto
+  }
+  
+  #footer-wrap h1 {
+    font-size: 1.5rem;
+    margin: 0
+  }
+  
+  #footer-wrap h3 {
+    padding: 0 12px
+  }
+  
+  #footer-wrap p {
+    margin: 0 0 0 .2rem;
+    font-size: .8rem;
+    opacity: .8
+  }
+  
+  #footer-wrap i {
+    margin-right: .5rem;
+    width: 22px;
+    font-size: 18px;
+    display: inline-block
+  }
+  
+  #footer-wrap #letlogo {
+    display: flex;
+    flex-direction: column;
+    /*margin-right: 60px;*/
+    align-self: center;
+    margin: auto 0;
+    max-width: 200px
+  }
+  
+  #footer-wrap #letlink .link_group {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    min-width: 180px
+  }
+  
+  #footer-wrap #letlink {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 0 1rem 0
+  }
+  
+  #weblogo i {
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: -10px
+  }
+  
+  #footer:before {
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    content: '' !important;
+    z-index: -1
+  }
+  
+  #HiPeach-footer .footer-links {
+    display: flex;
+    flex-direction: column
+  }
+  
+  #HiPeach-footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+    margin: 1rem auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+    padding: 0 1rem
+  }
+  
+  #HiPeach-footer .footer-item {
+    font-size: 1rem;
+    line-height: .8rem;
+    margin: .38rem 0;
+    color: var(--HiPeach-footer-fontcolor);
+    /*margin-right: auto*/
+  }
+  
+  #HiPeach-footer .footer-item:hover {
+    color: var(--HiPeach-footer-hoverfontcolor)
+  }
+  
+  #HiPeach-footer .footer-group {
+    min-width: 120px
+  }
+  
+  #HiPeach-footer .footer-title {
+    color: var(--HiPeach-footer-titlecolor);
+    font-size: 1rem
+  }
+  
+  #footer-banner {
+    padding: 1rem;
+    color: var(--HiPeach-footer-titlecolor);
+    margin-top: 1rem;
+    background: var(--HiPeach-footer-secondbg);
+    display: flex;
+    overflow: hidden;
+    z-index: 1002;
+    transition: .3s;
+    /*border-top: var(--style-border)*/
+  }
+  
+  [data-theme=dark] #footer-banner {
+    background: var(--HiPeach-footer-secondbg)
+  }
+  
+  #footer-banner .footer-banner-links {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: bold
+  }
+  
+  #footer-banner .footer-banner-left {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 32px
+  }
+  
+  #footer-banner .footer-banner-link {
+    margin-right: 1rem;
+    color: var(--HiPeach-footer-titlecolor);
+    font-size: 1rem;
+    white-space: nowrap
+  }
+  
+  #footer-banner .footer-banner-link.cc {
+    margin-right: 0
+  }
+  
+  #footer-banner .footer-banner-link.cc i {
+    margin-right: .5rem
+  }
+  
+  #footer-banner .footer-banner-link:hover {
+    color: var(--HiPeach-footer-hovertitlecolor)
+  }
+  
+  #footer-banner > div > div.footer-banner-left > span {
+    margin-right: 1rem
+  }
+  
+  #footer-banner .footer-banner-right a:hover {
+    color: var(--HiPeach-footer-hovertitlecolor)
+  }
+  
+  #footer_deal i {
+    font-size: 1.3rem;
+    transition: .3s;
+    line-height: 1.3rem;
+    height: 1.3rem
+  }
+  
+  /*行内代码框*/
+  #article-container code {
+    padding: 2px 4px;
+    border-radius: 4px;
+    background: var(--HiPeach-code-bg) !important;
+    color: var(--HiPeach-code-color) !important;
+  }
+  
+  /*目录*/
+  #aside-content #card-toc .toc-content {
+    margin: 10px -18px;
+  }
+   #aside-content #card-toc .toc-content .toc-link.active {
+    line-height: 1.2;
+    border-radius: 12px;
+    border-left-color: var(--HiPeach-hovertext);
+    background-color: var(--HiPeach-card-bg);
+    color: var(--HiPeach-lighttext);
+    font-weight: bold;
+    font-size: 20px;
+  }
+  [data-theme=dark].toc .toc-item.active .toc-link .toc-text {
+    color: var(--HiPeach-white);
+  }
+  #aside-content #card-toc .toc-content .toc-item.active .toc-link {
+    opacity: 1;
+    border-radius: 8px;
+  }
+  #aside-content #card-toc .toc-content .toc-link {
+    line-height: 1.2;
+    padding: 8px;
+    border-left: 0px solid transparent;
+    border-radius: 12px;
+    color: var(--HiPeach-secondtext);
+    cursor: default;
+  }
+  #aside-content #card-toc .toc-content .toc-link:not(.active) span {
+    opacity: 0.6;
+    cursor: pointer;
+    filter: blur(1px);
+    transition: 0.3s;
+  }
+  #aside-content #card-toc:hover .toc-content .toc-link:not(.active) span {
+    filter: blur(0px);
+    opacity: 1;
+  }
+  #aside-content #card-toc .toc-content .toc-link:not(.active) span:hover {
+    color: var(--HiPeach-lighttext);
+  }
+  
+  /*新年倒计时*/
+  #newYear {
+    display: none; /*开关*/
+    color: white;
+    padding: 0 !important;
+  }
+  
+  #newYear p,
+  #newYear h3 {
+    font-weight: normal;
+    color: inherit;
+    margin: 0;
+  }
+  
+  #newYear .item-headline {
+    display: none;
+  }
+  
+  #newYear-main {
+    min-height: 160px;
+    padding: 1rem;
+    position: relative;
+    border-radius: 12px;
+    background-image: url(/media/2023.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #newYear-main * {
+    position: relative;
+    line-height: 1.3;
+  }
+  
+  #newYear-main .newYear-time {
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #newYear-main .time,
+  #newYear-main .happyNewYear {
+    font-size: 3.5rem;
+    margin: 1rem 0;
+    display: block;
+  }
+  
+  #newYear-main .day {
+    font-size: 5rem;
+  }
+  
+  #newYear-main .day .unit {
+    font-size: 1rem;
+  }
+  
+  #newYear-main .mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .1);
+  }
+  
+  /*图片圆角*/
+  #article-container img {
+    border-radius: 15px;
+  }
+  
+  /*自定义弹窗*/
+  .float-win {
+    position: fixed;
+    top: 70px;
+    width: 310px;
+    z-index: 120;
+    background-color: var(--HiPeach-float-win-bg);
+    color: var(--font-color);
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 3px var(--HiPeach-button-shadow);
+    transition: all 1s;
+    animation: win-entrance 1.3s forwards;
+  }
+  .float-win.delete {
+    animation: win-exit 1.2s forwards;
+  }
+  @media screen and (max-width: 550px) and (min-width: 250px) {
+    .float-win {
+      width: calc(65%);
+   }
+  }
+  @media screen and (max-width: 250px) {
+    .float-win {
+      width: calc(80%);
+   }
+    .float-win > .select > .descr {
+      color: transparent;
+   }
+  }
+  .float-win > i {
+    margin-left: 10px;
+  }
+  .float-win > .text {
+    position: relative;
+    max-width: 84%;
+    margin-left: 8%;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    word-break: break-word;
+    word-wrap: break-word;
+  }
+  .float-win.click > .text {
+    margin-bottom: 0;
+  }
+  .float-win > .exit {
+    position: absolute;
+    color: var(--text-highlight-color);
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    transition: all 0.5s;
+  }
+  .float-win > .exit:hover {
+    color: #00bfff;
+    transform: rotate(90deg);
+  }
+  .float-win > .exit i {
+    font-size: 1em;
+  }
+  .float-win > .select {
+    position: relative;
+    text-align: right;
+    margin-bottom: 10px;
+    height: 30px;
+  }
+  .float-win > .select > .descr {
+    position: relative;
+    margin-top: 0;
+    margin-right: 6px;
+    display: inline-block;
+    height: 30px;
+    overflow: hidden;
+  }
+  .float-win > .select > .descr > p {
+    position: relative;
+    margin: 0;
+    height: 30px;
+    z-index: 121;
+    transition: all 1s;
+  }
+  .float-win > .select > .descr > p:not(.open) {
+    left: 100px;
+    opacity: 0;
+  }
+  .float-win > .select > .action {
+    display: inline-block;
+    position: relative;
+    z-index: 121;
+    height: 30px;
+    margin-right: 10px;
+    background-color: var(--HiPeach-button-dark-bg);
+    color: var(--HiPeach-button-font);
+    box-shadow: 1px 1px 2px var(--HiPeach-button-shadow);
+    padding: 10px;
+    border-radius: 7px;
+    transition: all 0.5s;
+  }
+  .float-win > .select > .action > .text {
+    display: inline;
+    position: relative;
+    bottom: 4px;
+    font-weight: bold;
+  }
+  .float-win > .select > .action > i {
+    position: relative;
+    bottom: 4px;
+    margin-right: 5px;
+  }
+  .float-win > .select > .action:hover {
+    background-color: var(--HiPeach-button-dark-hover);
+  }
+  .float-win > .select > .action:hover + .descr > p {
+    left: 0;
+    opacity: 1;
+  }
+  [data-theme='light'] .float-win {
+    box-shadow: 3px 4px 6px 5px var(--HiPeach-button-shadow);
+  }
+  @-moz-keyframes win-entrance {
+    from {
+      right: -310px;
+      opacity: 0.5;
+   }
+    to {
+      right: 20px;
+      opacity: 1;
+   }
+  }
+  @-webkit-keyframes win-entrance {
+    from {
+      right: -310px;
+      opacity: 0.5;
+   }
+    to {
+      right: 20px;
+      opacity: 1;
+   }
+  }
+  @-o-keyframes win-entrance {
+    from {
+      right: -310px;
+      opacity: 0.5;
+   }
+    to {
+      right: 20px;
+      opacity: 1;
+   }
+  }
+  @keyframes win-entrance {
+    from {
+      right: -310px;
+      opacity: 0.5;
+   }
+    to {
+      right: 20px;
+      opacity: 1;
+   }
+  }
+  @-moz-keyframes win-exit {
+    from {
+      right: 20px;
+   }
+    to {
+      right: -500px;
+      opacity: 0.3;
+   }
+  }
+  @-webkit-keyframes win-exit {
+    from {
+      right: 20px;
+   }
+    to {
+      right: -500px;
+      opacity: 0.3;
+   }
+  }
+  @-o-keyframes win-exit {
+    from {
+      right: 20px;
+   }
+    to {
+      right: -500px;
+      opacity: 0.3;
+   }
+  }
+  @keyframes win-exit {
+    from {
+      right: 20px;
+   }
+    to {
+      right: -500px;
+      opacity: 0.3;
+   }
+  }
+  
+  /* 哔哔 */
+  div#main_top {
+    z-index: 1;
+    max-width: 1200px;
+    margin: 20px auto -15px;
+    width: 100%;
+    padding: 0 15px;
+  }
+  
+  @media screen and (min-width: 2000px) {
+    div#main_top {
+        max-width: 1500px;
+    }
+  }
+  
+  #bber-talk {
+    border-radius: 12px;
+    box-shadow: none;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    width: 100%;
+    min-height: 50px;
+    background: var(--card-bg);
+    padding: .5rem 1rem;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    font-weight: 700;
+  }
+  
+  #bber-talk:hover {
+    box-shadow: none;
+  }
+  
+  #bber-talk,
+  #bber-talk a {
+    color: var(--HiPeach-fontcolor);
+  }
+  
+  #bber-talk svg.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -.15em;
+    fill: currentColor;
+    overflow: hidden;
+    font-size: 20px;
+  }
+  
+  #bber-talk .item i {
+    margin-left: 5px;
+  }
+  
+  #bber-talk>i {
+    font-size: 1.1rem;
+  }
+  
+  #bber-talk .talk-list {
+    flex: 1;
+    max-height: 32px;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  #bber-talk .talk-list :hover {
+    color: #49b1f5 !important;
+    transition: all .2s ease-in-out;
+  }
+  
+  #bber-talk .talk-list li {
+    list-style: none;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-left: 10px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    #bber-talk .talk-list {
+        text-align: center;
+        margin-right: 20px;
+    }
+  }
+  
+  [data-theme=dark] #bber-talk svg {
+    filter: invert(100%);
+  }
+  
+  /* 评论区评论大框 */
+  .twikoo .tk-comments-container>.tk-comment {
+    /* 内边距 */
+    padding: 1rem;
+    /* 圆角 */
+    border-radius: var(--HiPeach-radius);
+    /* 背景颜色 */
+    background: var(--HiPeach-card-bg);
+    /* 变动动画时长 */
+    transition: .3s;
+  }
+  
+  /* 浅色模式评论区评论大框 */
+  [data-theme=light] .twikoo .tk-comments-container>.tk-comment {
+    /* 阴影 */
+    box-shadow: var(--card-box-shadow);
+  }
+  
+  /* 浅色模式评论区评论大框阴影悬浮加深 */
+  [data-theme=light] .twikoo .tk-comments-container>.tk-comment:hover {
+    /* 阴影（浅色模式突出层次感） */
+    box-shadow: var(--card-hover-box-shadow);
+  }
+  
+  /* 黑暗模式评论区评论大框 */
+  [data-theme=dark] .twikoo .tk-comments-container>.tk-comment {
+    /* 边框样式 */
+    border-style: solid;
+    /* 边框宽度 */
+    border-width: var(--HiPeach-card-border-width);
+    /* 边框颜色 */
+    border-color: var(--HiPeach-card-border);
+  }
+  
+  /* 设备信息 */
+  .twikoo .tk-extra {
+    /* 圆角 */
+    border-radius: var(--HiPeach-radius);
+    /* 背景颜色 */
+    background: var(--HiPeach-card-bg);
+    /* 内边距 */
+    padding: 0.4rem;
+    /* 底边距 */
+    margin-bottom: 1rem;
+    /* 变动动画时长 */
+    transition: .3s;
+  }
+  
+  /* 浅色模式设备信息 */
+  [data-theme=light] .twikoo .tk-extra {
+    /* 阴影 */
+    box-shadow: var(--card-box-shadow);
+  }
+  
+  /* 浅色模式设备信息阴影悬浮加深 */
+  [data-theme=light] .twikoo .tk-extra:hover {
+    /* 阴影 */
+    box-shadow: var(--card-hover-box-shadow);
+  }
+  
+  /* 黑暗模式设备信息 */
+  [data-theme=dark] .twikoo .tk-extra {
+    /* 边框样式 */
+    border-style: solid;
+    /* 边框宽度 */
+    border-width: var(--HiPeach-card-border-width);
+    /* 边框颜色 */
+    border-color: var(--HiPeach-card-border);
+  }
+  
+  /* 加载更多按钮 */
+  .twikoo .tk-expand {
+    /* 圆角 */
+    border-radius: var(--HiPeach-radius);
+  }
+  
+  /* 浅色模式加载更多按钮 */
+  [data-theme=light] .twikoo .tk-expand {
+    /* 阴影 */
+    box-shadow: var(--card-box-shadow);
+  }
+  
+  /* 浅色模式加载更多按钮（鼠标悬浮时） */
+  [data-theme=light] .twikoo .tk-expand:hover {
+    /* 阴影 */
+    box-shadow: var(--card-hover-box-shadow);
+    /* 背景颜色 */
+    background-color: var(--btn-bg);
+  }
+  
+  /* 黑暗模式加载更多按钮（鼠标悬浮时） */
+  [data-theme=dark] .twikoo .tk-expand:hover {
+    /* 背景颜色 */
+    background-color: var(--HiPeach-blue);
+  }
+  
+  /* 黑暗模式加载更多按钮 */
+  [data-theme=dark] .twikoo .tk-expand {
+    /* 边框样式 */
+    border-style: solid;
+    /* 边框宽度 */
+    border-width: var(--HiPeach-card-border-width);
+    /* 边框颜色 */
+    border-color: var(--HiPeach-card-border);
+  }
+  
+  /*作者卡片*/
+  #aside-content > .card-widget:first-child {
+    background: #fff url(/media/info.webp) top -24% center no-repeat;
+  }
+  
+  [data-theme=dark] #aside-content>.card-widget:first-child {
+    background: #121212 !important
+  }
+  
+  #aside-content>.card-widget.card-info>#card-info-btn {
+    border-radius: 10px;
+  }
+  
+  .card-widget .author-info-top {
+    margin: 15px auto 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card-widget .card-info-avatar {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .card-info-avatar .avatar-img {
+    width: 100px;
+    height: 100px;
+    display: block;
+  }
+  
+  .avatar-img img {
+    border: 4px solid #f7f9fe;
+    border-radius: 50%;
+  }
+  
+  [data-theme="dark"] .avatar-img img {
+    border: 4px solid #121212
+  }
+  
+  .card-info-avatar .author-status-box {
+    position: absolute;
+    bottom: 0;
+    left: calc(100% - 28px);
+    width: 28px;
+    height: 28px;
+    border: 1px solid #d0d7de;
+    border-radius: 2em;
+    background-color: #fff;
+    transition: .3s;
+    overflow: hidden;
+  }
+  
+  [data-theme="dark"] .card-info-avatar .author-status-box {
+    color: #515151
+  }
+  
+  .card-info-avatar .author-status-box .author-status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    padding: 0 5px;
+  }
+  
+  .card-info-avatar .author-status-box:hover {
+    width: 105px
+  }
+  
+  .card-info-avatar .author-status-box:hover .author-status span {
+    width: 105px;
+    margin-left: 4px;
+  }
+  
+  .card-info-avatar .author-status-box .author-status span {
+    width: 0;
+    font-size: 12px;
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: .3s;
+  }
+  
+  div#author-info__sayhi {
+    text-align: left;
+    background: rgba(255, 255, 255, 0.2);
+    color: var(--font-color);
+    border: 1px solid #e3e8f7;
+    font-size: 12px;
+    margin-right: auto;
+    padding: 5px 8px;
+    border-radius: 12px;
+    width: fit-content;
+    display: inline;
+    margin-left: -1px;
+  }
+  
+  [data-theme="dark"] div#author-info__sayhi {
+    border: 1px solid #414141;
+  }
+  
+  .card-widget .author-info__name {
+    line-height: 1.5em;
+    margin: 10px 0 4px;
+  }
+  
+  #aside-content .card-info .author-info__description {
+    font-weight: bold;
+    margin-top: -.42em;
+  }
+  
+  .card-widget.card-info .banner-button-group {
+    margin: 15px 0 0;
+    display: flex;
+  }
+  
+  #aside-content .card-info .banner-button {
+    height: 40px;
+    width: 100%;
+    margin-right: unset !important;
+    border-radius: 20px;
+    justify-content: center;
+  }
+  
+  .card-widget.card-info .banner-button-group .banner-button {
+    padding: 20px 12px;
+    background: #3b70fc;
+    border-radius: 12px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    transition: all .3s ease 0s;
+    cursor: pointer;
+  }
+  
+  #aside-content > div.animate__fadeIn.card-info.card-widget.wow > h1 {
+    font-weight: bold;
+    font-size: 1.57em;
+  }
+  
+  #aside-content > div.animate__fadeIn.card-info.card-widget.wow > div.banner-button-group > a > span {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .card-widget.card-info .banner-button-group .banner-button .codesign.icon-arrow-up-right {
+    font-size: 1.3rem;
+    margin-right: 10px;
+  }
+  
+  .card-widget.card-info .banner-button-group .banner-button:hover {
+    background: #1856fb;
+    color: #fff;
+  }
+  
+  /*网站运行时间*/
+  div#runtime {
+    width: fit-content;
+    color: #fff;
+    padding: 0 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  [data-theme="dark"] div#runtime {
+    color: #28b4c8;
+    box-shadow: 0 0 5px rgba(28, 69, 218, 0.71);
+  }
+  
+  /*公告图标*/
+  #aside-content .card-announcement .item-headline i {
+    color: var(--font-color)
+  }
+  
