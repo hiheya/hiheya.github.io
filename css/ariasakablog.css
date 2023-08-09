@@ -1847,16 +1847,16 @@ th{
     --lyx-darkblue:#61649f;
     --text-bg-hover: none;
 }
-#nav *::after{
+#nav *:not(#page-name)::after{
     background-color: transparent!important;
 }
-/* #nav-right{
+#nav-right{
     flex:1 1 auto;
     justify-content: flex-end;
     margin-left: auto;
     display: flex;
     flex-wrap:nowrap;
-} */
+}
 .tag-link-title{
     color:var(--gcolor);
 }
@@ -2931,7 +2931,7 @@ body{
     background-color: url(/img/fcircle-for-iconfont.svg);
 }
 #footer::before{
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(2px);
 }
 /* [data-theme="light"] #footer::before{
     background-color: var(--lyx-white-acrylic2);
@@ -5099,8 +5099,8 @@ transform: translateY(5px);}
     width: 100%;
     height: 100%;
     content:'';
-    backdrop-filter: blur(10px);
-    background:var(--lyx-white-acrylic2);
+    backdrop-filter: blur(2px);
+    background:rgba(255, 255, 255, 0.3);
 }
 [data-theme="dark"] .page #page:not(.home #page)::before, [data-theme="dark"] #tag::before,[data-theme="dark"] #category::before,[data-theme="dark"] #archive::before{
     background-color: var(--lyx-black-acrylic2)!important;
@@ -5854,4 +5854,28 @@ transform: translateY(5px);}
 
 .v[data-class=v] .vcards .vcard .vcontent:hover {
     border-color: rgba(188, 143, 239, 0.871);
+}
+
+/* 导航栏居中 */
+/* #nav-right {
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: nowrap;
+} */
+.nav-fixed #nav{
+    transform: translateY(58px)!important;
+    -webkit-transform: translateY(58px)!important;
+    -moz-transform: translateY(58px)!important;
+    -ms-transform: translateY(58px)!important;
+    -o-transform: translateY(58px)!important;
+}
+#nav{
+    transition: none!important;
+    -webkit-transition: none!important;
+    -moz-transition: none!important;
+    -ms-transition: none!important;
+    -o-transition: none!important;
 }

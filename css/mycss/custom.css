@@ -69,8 +69,8 @@
     --HiPeach-fontcolor: #363636;
     --HiPeach-background: #f7f9fe;
     --HiPeach-reverse: #000;
-    --HiPeach-maskbg: rgba(255, 255, 255, 0.6);
-    --HiPeach-maskbgdeep: rgba(255, 255, 255, 0.85);
+    --HiPeach-maskbg: rgba(255, 255, 255, 0.2);
+    --HiPeach-maskbgdeep: rgba(255, 255, 255, 0.25);
     --HiPeach-hovertext: var(--HiPeach-theme);
     --HiPeach-ahoverbg: #f7f7fa;
     --HiPeach-lighttext: #6f42c1;
@@ -690,7 +690,7 @@
     background-color: var(--HiPeach-card-bg);
     color: var(--HiPeach-lighttext);
     font-weight: bold;
-    font-size: 15px;
+    font-size: 13px;
   }
   [data-theme=dark].toc .toc-item.active .toc-link .toc-text {
     color: var(--HiPeach-white);
