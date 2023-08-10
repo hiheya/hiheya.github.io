@@ -271,9 +271,9 @@
     }
   
   /* 头图透明 */
-  #page-header{
+  /* #page-header{
     background: transparent!important;
-    }
+    } */
     
   /*头图黑色透明玻璃效果移除 */
   #page-header.post-bg:before {
@@ -1012,7 +1012,7 @@
     padding: .5rem 1rem;
     display: flex;
     align-items: center;
-    overflow: hidden;
+    /* overflow: hidden; */
     font-weight: 700;
   }
   

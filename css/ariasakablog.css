@@ -1303,7 +1303,7 @@ hr{
     color:var(--lyx-white);
 }
 .post-bg::before{
-    backdrop-filter:blur(10px) saturate(180%);
+    backdrop-filter:blur(1px) saturate(100%);
     -webkit-backdrop-filter:blur(10px) saturate(180%);
 }
 /* [data-theme='light'] .card-weather{
@@ -5878,4 +5878,111 @@ transform: translateY(5px);}
     -moz-transition: none!important;
     -ms-transition: none!important;
     -o-transition: none!important;
+}
+
+#bber-talk {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column
+}
+
+#bbtalk {
+    overflow: hidden;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+#bber-talk .li-style {
+    width: auto;
+    max-width: 100%;
+    height: 25px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: .3s;
+    font-weight: 700;
+    margin: auto;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+#bbTimeList .li-style:hover {
+    color: var(--heo-theme);
+    transition: .3s
+}
+
+li,ul {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0
+}
+
+#bbTimeList {
+    background: var(--heo-card-bg);
+    color: var(--heo-fontcolor);
+    padding: .5rem 1rem;
+    border-radius: 12px;
+    box-shadow: var(--heo-shadow-lightblack);
+    display: flex;
+    transition: .3s;
+    margin-bottom: 1rem;
+    border: var(--style-border);
+    align-items: center;
+    height: 50px;
+    -webkit-user-select: none
+}
+
+#bbTimeList.more-page {
+    margin-bottom: 0
+}
+
+@media screen and (min-width: 768px) {
+    #bbTimeList:hover {
+        border:var(--style-border-hover);
+        box-shadow: var(--heo-shadow-main);
+        background: rgba(255, 255, 255, 0.6)
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    #bbTimeList {
+        width: 100%;
+        margin-bottom:1rem;
+        animation: slide-in .6s 0s backwards
+    }
+}
+
+.bber-gotobb {
+    line-height: 25px;
+    margin-left: 1rem;
+    transition: .3s;
+    cursor: pointer
+}
+
+.bber-gotobb:hover {
+    opacity: .8;
+    color: var(--heo-theme)
+}
+
+i.bber-gotobb {
+    font-size: 16px
+}
+
+.icon-bblogo {
+    font-size: 2rem;
+    font-size: 2rem;
+    line-height: 22px;
+    margin-right: 1rem;
+    transition: .3s;
+    cursor: pointer
+}
+
+.icon-bblogo:hover {
+    opacity: .8;
+    color: var(--heo-theme)
 }

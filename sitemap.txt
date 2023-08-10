@@ -1,8 +1,9 @@
 http://hiheya.github.io/update/index.html
+http://hiheya.github.io/essay/index.html
+http://hiheya.github.io/about/index.html
 http://hiheya.github.io/archives/9765c01a.html
 http://hiheya.github.io/cookies/index.html
 http://hiheya.github.io/music/index.html
-http://hiheya.github.io/about/index.html
 http://hiheya.github.io/collect/index.html
 http://hiheya.github.io/movies/index.html
 http://hiheya.github.io/dailynews/index.html
